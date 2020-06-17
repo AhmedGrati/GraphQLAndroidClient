@@ -1,0 +1,8 @@
+mutation addTodo($newTodo: TodoInput){
+    addTodo(newTodo : $newTodo){
+        id
+        title
+        description
+        duration
+    }
+}

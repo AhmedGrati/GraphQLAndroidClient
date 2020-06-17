@@ -1,0 +1,8 @@
+query getAllTodos{
+    getAllTodos{
+        id
+        title
+        description
+        duration
+    }
+}
